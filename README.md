@@ -1,6 +1,6 @@
 # Sign Language Recognition: Static ASL to Word-Level Classification
 
-This repository contains a two-phase ASL recognition system:  
+This repository contains a ASL recognition system:  
 - static alphabet classification using ResNet-18, and  
 - dynamic word-level recognition using temporal models.
 
