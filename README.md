@@ -8,7 +8,7 @@ This repository contains a two-phase ASL recognition system:
 
 ## Overview
 
-### Phase 1 — Static ASL Alphabet Classification
+### Static ASL Alphabet Classification
 - ResNet-18 (ImageNet pretrained)
 - Freezing/unfreezing strategies compared:
   - T-A: Head only  
@@ -20,7 +20,7 @@ This repository contains a two-phase ASL recognition system:
   - Official 28-image test set  
   - Custom 20-image test set (new conditions)
 
-### Phase 2 — Dynamic Word Recognition
+### Dynamic Word Recognition
 - Best static model used as frame-level feature extractor  
 - Global average–pooled embeddings fed into:
   - LSTM/GRU  
@@ -56,7 +56,7 @@ new_test_set/       # Custom images
 
 - Reports accuracy, macro-F1, confusion matrices, and training curves  
 - Includes ablation comparison of T-A, T-B, T-C, and S-A  
-- Phase 2 evaluated on the official WLASL100 test split  
+- Dynamic word recgonition evaluated on the official WLASL100 test split  
 
 ---
 
