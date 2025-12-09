@@ -41,16 +41,6 @@ https://www.kaggle.com/datasets/thtrnphc/wlasl100-new
 
 ---
 
-## Repo Structure
-
-```text
-asl_static/         # Static model training
-wlasl_dynamic/      # Temporal modeling
-models/             # Checkpoints
-utils/              # Preprocessing & dataloaders
-notebooks/          # Training logs
-new_test_set/       # Custom images
-```
 
 ## Evaluation
 
